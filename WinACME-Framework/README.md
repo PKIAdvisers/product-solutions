@@ -16,6 +16,16 @@ WinACME Framework v1.0.0 is the first production release of the framework.
 
 Production releases are distributed as digitally signed Windows installation packages through the **PKIAdvisers Product Solutions** repository.
 
+## Documentation
+
+The following documentation provides additional information about installing, configuring, securing, and maintaining WinACME Framework:
+
+- [Installation Guide](./INSTALLATION.md) — System requirements, installation, initial setup, and upgrade procedures.
+- [Architecture](./ARCHITECTURE.md) — Framework architecture, component relationships, certificate provisioning, deployment, automation, and security boundaries.
+- [Module Reference — v1.0.0](./MODULE-REFERENCE-1.0.0.md) — Detailed reference for the PowerShell modules and functions included in WinACME Framework 1.0.0.
+- [Security](./SECURITY.md) — Security model, code-signing verification, protected secrets, permissions, and operational security considerations.
+- [Release Notes](./RELEASE-NOTES.md) — Release-specific changes, known limitations, fixes, and other release information.
+
 ## Key Features
 
 WinACME Framework provides:
@@ -232,12 +242,6 @@ Get-FileHash .\WinACME-Framework-Setup.exe -Algorithm SHA256
 ```
 
 For additional security and software verification information, see [SECURITY.md](./SECURITY.md).
-
-## Release Notes
-
-Release-specific information, known limitations, and changes are documented in:
-
-[RELEASE-NOTES.md](./RELEASE-NOTES.md)
 
 ## Support
 
